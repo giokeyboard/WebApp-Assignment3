@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+body {
+    width:100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/*-----------------------------------title and logo style for each page*/
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 3px;
+    right: 40px;
+    font-size: 1.3em;
+}
+
+/*----------------------------------------------------------title style*/
+.title {
+    text-align: center;
+}
+
+/*--------------------------------------------- navbar and footer style*/
+.phpheader {
+    margin-bottom: 10px;
+    width:100%;
+}
+
+.phpheader ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #585858;
+}
+
+.phpfooter ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #585858;
+}
+
+.phpheader li, .phpfooter li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+.phpheader li:last-child, .phpfooter li:last-child {
+    border-right: none;
+}
+
+.phpheader li a, .phpfooter li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.phpheader li a:hover:not(.active), .phpfooter li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.phpfooter {
+    margin-top: 30px;
+    width:100%;
+    background-color: #585858;
+    color: white;
+    text-align:center;
+    font-size: 0.8em;
+}
+
+/*----------------------------------------------------------tables style*/
+.table {
+    text-align: center;
+    width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0px auto;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+td {
+    text-align: justify;
+}
+
+tr:hover {background-color: #fff293;}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #00064e;
+    color: white;
+    font-weight: bolder;
+}
+
+.extrainfo {
+    border: 1px solid black;
+    float: right;
+    margin-top: 15px;
+    background-color:white;
+    border-radius:2em;
+    text-decoration:none;
+    font-weight:400;
+    color:black;
+    text-align:center;
+}
+
+.extrainfo:hover {
+    color: white;
+    background-color: black;
+}
+
+.paymentstable th {
+    background-color: black;
+}
+
+.paymentstable tr:hover {background-color: rgba(76, 175, 80, 0.22);}
+
+.infotable th {
+    background-color: #3b863e;
+}
+
+.infotable td, th {
+    text-align:center;
+}
